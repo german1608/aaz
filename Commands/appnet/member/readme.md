@@ -2,6 +2,11 @@
 
 Commands to manage members in an Azure Kubernetes Application Network
 
+## Subgroups
+
+- [upgrade-history](/Commands/appnet/member/upgrade-history/readme.md)
+: Manage Upgrade History
+
 ## Commands
 
 - [join](/Commands/appnet/member/_join.md)
