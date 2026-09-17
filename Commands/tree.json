@@ -48351,6 +48351,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev add-on create --project-name \"myProject\" --user-id \"me\" --dev-box-name \"myDevBox\" --add-on-name \"devboxtunnel-sys-default\""
+                            ],
+                            "name": "Create"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}/addons/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -48380,6 +48398,24 @@
                             "id": "/projects/{}/users/{}/devboxes/{}/addons/{}",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev add-on delete --project-name \"myProject\" --user-id \"me\" --dev-box-name \"myDevBox\" --add-on-name \"devboxtunnel-sys-default\""
+                            ],
+                            "name": "Delete"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}/addons/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -48413,6 +48449,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev add-on disable --project-name \"myProject\" --user-id \"me\" --dev-box-name \"myDevBox\" --add-on-name \"devboxtunnel-sys-default\""
+                            ],
+                            "name": "Disable"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}/addons/{}:disable",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -48442,6 +48496,24 @@
                             "id": "/projects/{}/users/{}/devboxes/{}/addons/{}:enable",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev add-on enable --project-name \"myProject\" --user-id \"me\" --dev-box-name \"myDevBox\" --add-on-name \"devboxtunnel-sys-default\""
+                            ],
+                            "name": "Enable"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}/addons/{}:enable",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -48475,6 +48547,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev add-on list --project-name \"myProject\" --user-id \"me\" --dev-box-name \"myDevBox\""
+                            ],
+                            "name": "List"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}/addons",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -48504,6 +48594,24 @@
                             "id": "/projects/{}/users/{}/devboxes/{}/addons/{}",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev add-on show --project-name \"myProject\" --user-id \"me\" --dev-box-name \"myDevBox\" --add-on-name \"devboxtunnel-sys-default\""
+                            ],
+                            "name": "Get"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}/addons/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -48572,6 +48680,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev approval list --project-name \"myProject\" --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\""
+                            ],
+                            "name": "List"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/approvals",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   }
@@ -48633,6 +48759,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev catalog list --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\""
+                            ],
+                            "name": "List"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/catalogs",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -48680,6 +48824,24 @@
                             "id": "/projects/{}/catalogs/{}",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev catalog show --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --catalog-name \"foo\""
+                            ],
+                            "name": "Get"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/catalogs/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -48743,6 +48905,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev customization-group create --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --dev-box-name \"myDevBox\" --tasks \"[{\\\"name\\\": \\\"catalogName/choco\\\", \\\"displayName\\\": \\\"Install VS Code\\\", \\\"parameters\\\": {\\\"packageName\\\": \\\"vscode\\\", \\\"packageVersion\\\": \\\"1.0.0\\\"}}, {\\\"name\\\": \\\"catalogName/write-to-file\\\", \\\"runAs\\\": \\\"User\\\"}]\" --name \"Provisioning\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "Applies customizations to the dev box"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}/customizationgroups/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -48792,6 +48972,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev customization-group list --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --dev-box-name \"myDevBox\" --user-id \"00000000-0000-0000-0000-000000000000\" --include-tasks"
+                            ],
+                            "name": "List"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}/customizationgroups",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -48839,6 +49037,24 @@
                             "id": "/projects/{}/users/{}/devboxes/{}/customizationgroups/{}",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev customization-group show --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --dev-box-name \"myDevBox\" --name \"Provisioning\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "Get"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}/customizationgroups/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -48902,6 +49118,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev customization-task list --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\""
+                            ],
+                            "name": "List"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/customizationtasks",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -48949,6 +49183,24 @@
                             "id": "/projects/{}/catalogs/{}/customizationtasks/{}",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev customization-task show --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --task-name \"choco\" --catalog-name \"myCatalog\""
+                            ],
+                            "name": "Get"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/catalogs/{}/customizationtasks/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -49000,6 +49252,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev customization-task show-logs --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --dev-box-name \"myDevBox\" --customization-group-name \"Provisioning\" --customization-task-id \"91835dc0-ef5a-4f58-9e3a-099aea8481f4\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "Show logs"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}/customizationgroups/{}/logs/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -49049,6 +49319,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev customization-task validate --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --tasks \"[{\\\"name\\\": \\\"catalogName/choco\\\", \\\"displayName\\\": \\\"Install VS Code\\\", \\\"parameters\\\": {\\\"packageName\\\": \\\"vscode\\\", \\\"packageVersion\\\": \\\"1.0.0\\\"}}, {\\\"name\\\": \\\"catalogName/write-to-file\\\", \\\"runAs\\\": \\\"User\\\"}]\""
+                            ],
+                            "name": "Validate"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/customizationtasks:validategroup",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   }
@@ -49092,6 +49380,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev dev-box align --project-name \"myProject\" --user-id me --dev-box-name \"MyDevBox\" --targets [\"NetworkProperties\"] --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\""
+                            ],
+                            "name": "Aligns dev box"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}:align",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -49121,6 +49427,24 @@
                             "id": "/projects/{}/users/{}/devboxes/{}:approve",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev dev-box approve --project-name \"myProject\" --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\"  --user-id \"me\" --dev-box-name \"MyDevBox\""
+                            ],
+                            "name": "Approve creation"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}:approve",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -49172,6 +49496,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev dev-box capture-snapshot --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --name \"myDevBox\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "Create snapshot"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}:capturesnapshot",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -49219,6 +49561,24 @@
                             "id": "/projects/{}/users/{}/devboxes/{}",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev dev-box create --pool-name \"LargeDevWorkStationPool\" --name \"MyDevBox\" --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "Create"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -49270,6 +49630,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev dev-box delay-action --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --delay-time \"04:30\" --name \"myDevBox\" --action-name \"schedule-default\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "Delay an action"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}/actions/{}:delay",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -49319,6 +49697,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev dev-box delay-all-actions --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --delay-time \"04:30\" --name \"myDevBox\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "Delay all actions"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}/actions:delay",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -49366,6 +49762,24 @@
                             "id": "/projects/{}/users/{}/devboxes/{}",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev dev-box delete --name \"MyDevBox\" --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "Delete"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -49439,6 +49853,35 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev dev-box list --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "List by user"
+                          },
+                          {
+                            "commands": [
+                              "devcenter dev dev-box list --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "List by user and project"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          },
+                          {
+                            "id": "/users/{}/devboxes",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -49486,6 +49929,24 @@
                             "id": "/projects/{}/users/{}/devboxes/{}/actions",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev dev-box list-action --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --name \"myDevBox\" --user-id \"00000000-0000-0000-0000-000000000000\"v"
+                            ],
+                            "name": "List"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}/actions",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -49537,6 +49998,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev dev-box list-all --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\""
+                            ],
+                            "name": "List all dev boxes"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/devboxes",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -49584,6 +50063,24 @@
                             "id": "/projects/{}/users/{}/devboxes/{}/operations",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev dev-box list-operation --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --name \"myDevBox\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "List"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}/operations",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -49635,6 +50132,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev dev-box list-snapshot--endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --name \"myDevBox\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "List"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}/snapshots",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -49682,6 +50197,24 @@
                             "id": "/projects/{}/users/{}/devboxes/{}:repair",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev dev-box repair --name \"MyDevBox\" --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "Repair"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}:repair",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -49733,6 +50266,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev dev-box restart --name \"MyDevBox\" --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "Restart"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}:restart",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -49782,6 +50333,55 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev dev-box restore-snapshot --name \"MyDevBox\" --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --user-id \"00000000-0000-0000-0000-000000000000\" --snapshot-id \"CPC_974f0852-a0f4-4a9f-8ce7-d0d0d7a604cf_9b656834-3563-4bca-93c6-f90cfa3c6797\""
+                            ],
+                            "name": "Restore snapshot"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}:restoresnapshot",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "schedule-delete": {
+                    "help": {
+                      "short": "Creates an action to schedule the deletion of a Dev Box"
+                    },
+                    "names": [
+                      "devcenter",
+                      "dev",
+                      "dev-box",
+                      "schedule-delete"
+                    ],
+                    "versions": [
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev dev-box schedule-delete --project-name \"myProject\" --user-id \"me\" --name \"MyDevBox\" --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --delete-at 2022-09-30T17:00:00Z"
+                            ],
+                            "name": "Creates an occurrence of Dev Box delete action."
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}:scheduledelete",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -49811,6 +50411,24 @@
                             "id": "/projects/{}/users/{}/devboxes/{}:setactivehours",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev dev-box set-active-hours --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"myProject\" --user-id \"me\" --dev-box-name \"myDevBox\" --time-zone \"America/Los_Angeles\" --start-time-hour \"9\" --end-time-hour \"17\""
+                            ],
+                            "name": "Set active hours"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}:setactivehours",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -49862,6 +50480,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev dev-box show --name \"MyDevBox\" --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "Get"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -49909,6 +50545,24 @@
                             "id": "/projects/{}/users/{}/devboxes/{}/actions/{}",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev dev-box show-action --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --name \"myDevBox\" --action-name \"schedule-default\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "Get"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}/actions/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -49960,6 +50614,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev dev-box show-operation --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --name \"myDevBox\" --operation-id \"f5dbdfab-fa0e-4831-8d13-25359aa5e680\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "Show operation"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}/operations/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -50007,6 +50679,24 @@
                             "id": "/projects/{}/users/{}/devboxes/{}/remoteconnection",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev dev-box show-remote-connection --name \"MyDevBox\" --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "Gets RDP connection info"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}/remoteconnection",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -50058,6 +50748,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev dev-box show-snapshot --name \"MyDevBox\" --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --user-id \"00000000-0000-0000-0000-000000000000\" --snapshot-id \"CPC_974f0852-a0f4-4a9f-8ce7-d0d0d7a604cf_9b656834-3563-4bca-93c6-f90cfa3c6797\""
+                            ],
+                            "name": "Show snapshot"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}/snapshots/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -50105,6 +50813,24 @@
                             "id": "/projects/{}/users/{}/devboxes/{}/actions/{}:skip",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev dev-box skip-action --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --name \"myDevBox\" --action-name \"schedule-default\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "Skip action"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}/actions/{}:skip",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -50156,6 +50882,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev dev-box start --name \"MyDevBox\" --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "Start"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}:start",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -50203,6 +50947,24 @@
                             "id": "/projects/{}/users/{}/devboxes/{}:stop",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev dev-box stop --name \"MyDevBox\" --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "Stop"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/devboxes/{}:stop",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -50266,6 +51028,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev environment create --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --catalog-name \"main\" --environment-definition-name \"helloworld\" --environment-type \"DevTest\" --parameters \"{\\\"functionAppRuntime\\\":\\\"node\\\",\\\"storageAccountType\\\":\\\"Standard_LRS\\\"}\" --name \"mydevenv\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "Create"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/environments/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -50315,6 +51095,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev environment delay-action --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --name \"mydevenv\" --project-name \"DevProject\" --user-id \"00000000-0000-0000-0000-000000000000\" --action-name \"myEnv-Delete\" --delay-time \"04:30\""
+                            ],
+                            "name": "Delay an action"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/environments/{}/actions/{}:delay",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -50362,6 +51160,24 @@
                             "id": "/projects/{}/users/{}/environments/{}",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev environment delete --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --name \"mydevenv\" --project-name \"DevProject\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "Delete"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/environments/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -50435,6 +51251,35 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev environment list --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "List by user and project"
+                          },
+                          {
+                            "commands": [
+                              "devcenter dev environment list --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\""
+                            ],
+                            "name": "List by project"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/environments",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          },
+                          {
+                            "id": "/projects/{}/users/{}/environments",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -50482,6 +51327,24 @@
                             "id": "/projects/{}/users/{}/environments/{}/actions",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev environment list-action --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --name \"mydevenv\" --project-name \"DevProject\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "List"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/environments/{}/actions",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -50533,6 +51396,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev environment list-operation --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --name \"mydevenv\" --project-name \"DevProject\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "List"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/environments/{}/operations",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -50580,6 +51461,24 @@
                             "id": "/projects/{}/users/{}/environments/{}",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev environment show --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --name \"mydevenv\" --project-name \"DevProject\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "Get"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/environments/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -50631,6 +51530,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev environment show-action --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --name \"mydevenv\" --project-name \"DevProject\" --user-id \"00000000-0000-0000-0000-000000000000\" --action-name \"myEnv-Delete\""
+                            ],
+                            "name": "Get"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/environments/{}/actions/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -50678,6 +51595,24 @@
                             "id": "/projects/{}/users/{}/environments/{}/operations/{}/logs",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev environment show-logs-by-operation --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --name \"mydevenv\" --project-name \"DevProject\" --user-id \"00000000-0000-0000-0000-000000000000\" --operation-id \"f5dbdfab- fa0e-4831-8d13-25359aa5e680\""
+                            ],
+                            "name": "Get"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/environments/{}/operations/{}/logs",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -50729,6 +51664,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev environment show-operation --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --name \"mydevenv\" --project-name \"DevProject\" --user-id \"00000000-0000-0000-0000-000000000000\" --operation-id \"f5dbdfab- fa0e-4831-8d13-25359aa5e680\""
+                            ],
+                            "name": "Get"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/environments/{}/operations/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -50776,6 +51729,24 @@
                             "id": "/projects/{}/users/{}/environments/{}/outputs",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev environment show-outputs --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --name \"mydevenv\" --project-name \"DevProject\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "Get"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/environments/{}/outputs",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -50827,6 +51798,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev environment skip-action --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --name \"mydevenv\" --project-name \"DevProject\" --user-id \"00000000-0000-0000-0000-000000000000\" --action-name \"myEnv-Delete\""
+                            ],
+                            "name": "Skip an action"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/environments/{}/actions/{}:skip",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -50874,6 +51863,24 @@
                             "id": "/projects/{}/users/{}/environments/{}",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev environment update-expiration-date --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --name \"mydevenv\" --project-name \"DevProject\" --user-id \"00000000-0000-0000-0000-000000000000\" --expiration \"2025-11-30T22:35:00+00:00\""
+                            ],
+                            "name": "Update"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/environments/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -50959,6 +51966,35 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "az devcenter dev environment-definition list --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\""
+                            ],
+                            "name": "List by project"
+                          },
+                          {
+                            "commands": [
+                              "devcenter dev environment-definition list --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --catalog-name \"myCatalog\""
+                            ],
+                            "name": "List by project and catalog"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/catalogs/{}/environmentdefinitions",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          },
+                          {
+                            "id": "/projects/{}/environmentdefinitions",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -51006,6 +52042,24 @@
                             "id": "/projects/{}/catalogs/{}/environmentdefinitions/{}",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev environment-definition show --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --catalog-name \"myCatalog\" --definition-name \"foo\""
+                            ],
+                            "name": "Get"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/catalogs/{}/environmentdefinitions/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -51069,6 +52123,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev environment-type list --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\""
+                            ],
+                            "name": "List"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/environmenttypes",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -51118,6 +52190,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev environment-type show --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --environment-type-name \"dev\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "List"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/environmenttypes/{}/users/{}/abilities",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -51165,6 +52255,24 @@
                             "id": "/projects/{}/environmenttypes/{}",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev environment-type show --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --environment-type-name \"dev\""
+                            ],
+                            "name": "Get an environment type configured for a project."
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/environmenttypes/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -51228,6 +52336,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev image-build show-log --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\" --image-build-log-id \"91835dc0-ef5a-4f58-9e3a-099aea8481f4\""
+                            ],
+                            "name": "Get"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/imagebuildlogs/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   }
@@ -51243,6 +52369,37 @@
               },
               "pool": {
                 "commands": {
+                  "align": {
+                    "help": {
+                      "short": "Aligns all Dev Boxes in the pool with the current configuration."
+                    },
+                    "names": [
+                      "devcenter",
+                      "dev",
+                      "pool",
+                      "align"
+                    ],
+                    "versions": [
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev pool align  --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"myProject\" --pool-name \"DevPool\" --targets [\"NetworkProperties\"]"
+                            ],
+                            "name": "Align"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/pools/{}:align",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
+                      }
+                    ]
+                  },
                   "list": {
                     "help": {
                       "short": "List available pools."
@@ -51287,6 +52444,24 @@
                             "id": "/projects/{}/pools",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev pool list --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\""
+                            ],
+                            "name": "List"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/pools",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -51336,6 +52511,24 @@
                             "id": "/projects/{}/pools/{}",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev pool show --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --name \"DevPool\" --project-name \"DevProject\""
+                            ],
+                            "name": "Get"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/pools/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -51399,6 +52592,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev project list --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\""
+                            ],
+                            "name": "List"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -51446,6 +52657,24 @@
                             "id": "/projects/{}/users/{}/abilities",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev project list-abilities --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --name \"DevProject\" --user-id \"00000000-0000-0000-0000-000000000000\""
+                            ],
+                            "name": "List"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/users/{}/abilities",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -51497,6 +52726,24 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev project show --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --name \"DevProject\""
+                            ],
+                            "name": "Get"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -51544,6 +52791,24 @@
                             "id": "/projects/{}/operationstatuses/{}",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev project show-operation --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --name \"DevProject\" --operation-id \"f5dbdfab- fa0e-4831-8d13-25359aa5e680\""
+                            ],
+                            "name": "Get"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/operationstatuses/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -51629,6 +52894,35 @@
                             "version": "2025-04-01-preview"
                           }
                         ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev schedule list --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --project-name \"DevProject\""
+                            ],
+                            "name": "List by project"
+                          },
+                          {
+                            "commands": [
+                              "devcenter dev schedule list --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --pool-name \"DevPool\" --project-name \"DevProject\""
+                            ],
+                            "name": "List by pool"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/pools/{}/schedules",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          },
+                          {
+                            "id": "/projects/{}/schedules",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -51676,6 +52970,24 @@
                             "id": "/projects/{}/pools/{}/schedules/{}",
                             "plane": "data-plane:microsoft.devcenter",
                             "version": "2025-04-01-preview"
+                          }
+                        ]
+                      },
+                      {
+                        "examples": [
+                          {
+                            "commands": [
+                              "devcenter dev schedule show --endpoint \"https://8a40af38-3b4c-4672-a6a4-5e964b1870ed-contosodevcenter.centralus.devcenter.azure.com/\" --pool-name \"DevPool\" --project-name \"DevProject\""
+                            ],
+                            "name": "Get"
+                          }
+                        ],
+                        "name": "2025-08-01-preview",
+                        "resources": [
+                          {
+                            "id": "/projects/{}/pools/{}/schedules/{}",
+                            "plane": "data-plane:microsoft.devcenter",
+                            "version": "2025-08-01-preview"
                           }
                         ]
                       }
@@ -137929,7 +139241,7 @@
                             "examples": [
                               {
                                 "commands": [
-                                  "network manager verifier-workspace reachability-analysis-intent create --name \"myAnalysisIntent\u201d --workspace-name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --subscription \"00000000-0000-0000-0000-000000000000\" --description \u201chello world intent\u201d --source-resource-id \u201c/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg1/providers/Microsoft.Compute/virtualMachines/testVmSrc\u201d --destination-resource-id \u201c/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg1/providers/Microsoft.Compute/virtualMachines/testVmDest\u201d --ip-traffic \"{source-ips:[\"10.0.0.0/16\u201d, \u201c12.0.0.0\u201d],destination-ips:[\"12.0.0.0/8\u201d, \u201c10.0.0.0\u201d],source-ports:[\"20\u201d, \u201c23\u201d],destination-ports:[\"80\u201d, \u201c81\u201d],protocols:[\"TCP\u201d, \u201cUDP\u201d]}\""
+                                  "network manager verifier-workspace reachability-analysis-intent create --name \"myAnalysisIntent” --workspace-name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --subscription \"00000000-0000-0000-0000-000000000000\" --description “hello world intent” --source-resource-id “/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg1/providers/Microsoft.Compute/virtualMachines/testVmSrc” --destination-resource-id “/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg1/providers/Microsoft.Compute/virtualMachines/testVmDest” --ip-traffic \"{source-ips:[\"10.0.0.0/16”, “12.0.0.0”],destination-ips:[\"12.0.0.0/8”, “10.0.0.0”],source-ports:[\"20”, “23”],destination-ports:[\"80”, “81”],protocols:[\"TCP”, “UDP”]}\""
                                 ],
                                 "name": "ReachabilityAnalysisIntentCreate"
                               }
@@ -137948,7 +139260,7 @@
                             "examples": [
                               {
                                 "commands": [
-                                  "network manager verifier-workspace reachability-analysis-intent create --name \"myAnalysisIntent\u201d --workspace-name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --subscription \"00000000-0000-0000-0000-000000000000\" --description \u201chello world intent\u201d --source-resource-id \u201c/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg1/providers/Microsoft.Compute/virtualMachines/testVmSrc\u201d --destination-resource-id \u201c/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg1/providers/Microsoft.Compute/virtualMachines/testVmDest\u201d --ip-traffic \"{source-ips:[\"10.0.0.0/16\u201d, \u201c12.0.0.0\u201d],destination-ips:[\"12.0.0.0/8\u201d, \u201c10.0.0.0\u201d],source-ports:[\"20\u201d, \u201c23\u201d],destination-ports:[\"80\u201d, \u201c81\u201d],protocols:[\"TCP\u201d, \u201cUDP\u201d]}\""
+                                  "network manager verifier-workspace reachability-analysis-intent create --name \"myAnalysisIntent” --workspace-name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --subscription \"00000000-0000-0000-0000-000000000000\" --description “hello world intent” --source-resource-id “/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg1/providers/Microsoft.Compute/virtualMachines/testVmSrc” --destination-resource-id “/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg1/providers/Microsoft.Compute/virtualMachines/testVmDest” --ip-traffic \"{source-ips:[\"10.0.0.0/16”, “12.0.0.0”],destination-ips:[\"12.0.0.0/8”, “10.0.0.0”],source-ports:[\"20”, “23”],destination-ports:[\"80”, “81”],protocols:[\"TCP”, “UDP”]}\""
                                 ],
                                 "name": "ReachabilityAnalysisIntentCreate"
                               }
@@ -137980,7 +139292,7 @@
                             "examples": [
                               {
                                 "commands": [
-                                  "network manager verifier-workspace reachability-analysis-intent delete --name \u201cmyAnalysisIntent\u201d --workspace-name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --subscription \"00000000-0000-0000-0000-000000000000\""
+                                  "network manager verifier-workspace reachability-analysis-intent delete --name “myAnalysisIntent” --workspace-name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --subscription \"00000000-0000-0000-0000-000000000000\""
                                 ],
                                 "name": "ReachabilityAnalysisIntentDelete"
                               }
@@ -137999,7 +139311,7 @@
                             "examples": [
                               {
                                 "commands": [
-                                  "network manager verifier-workspace reachability-analysis-intent delete --name \u201cmyAnalysisIntent\u201d --workspace-name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --subscription \"00000000-0000-0000-0000-000000000000\""
+                                  "network manager verifier-workspace reachability-analysis-intent delete --name “myAnalysisIntent” --workspace-name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --subscription \"00000000-0000-0000-0000-000000000000\""
                                 ],
                                 "name": "ReachabilityAnalysisIntentDelete"
                               }
@@ -138133,7 +139445,7 @@
                             "examples": [
                               {
                                 "commands": [
-                                  "network manager verifier-workspace reachability-analysis-intent update --name \"myAnalysisIntent \" --workspace-name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --subscription \"00000000-0000-0000-0000-000000000000\" --description \u201cupdated description\u201d"
+                                  "network manager verifier-workspace reachability-analysis-intent update --name \"myAnalysisIntent \" --workspace-name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --subscription \"00000000-0000-0000-0000-000000000000\" --description “updated description”"
                                 ],
                                 "name": "ReachabilityAnalysisIntentUpdate"
                               }
@@ -138152,7 +139464,7 @@
                             "examples": [
                               {
                                 "commands": [
-                                  "network manager verifier-workspace reachability-analysis-intent update --name \"myAnalysisIntent \" --workspace-name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --subscription \"00000000-0000-0000-0000-000000000000\" --description \u201cupdated description\u201d"
+                                  "network manager verifier-workspace reachability-analysis-intent update --name \"myAnalysisIntent \" --workspace-name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --subscription \"00000000-0000-0000-0000-000000000000\" --description “updated description”"
                                 ],
                                 "name": "ReachabilityAnalysisIntentUpdate"
                               }
@@ -138197,7 +139509,7 @@
                             "examples": [
                               {
                                 "commands": [
-                                  "network manager verifier-workspace reachability-analysis-run create --name \"myAnalysisRun\" --workspace-name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --subscription \"00000000-0000-0000-0000-000000000000\" --description \u201chello world analysis run\u201d --intent-id \u201c/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/ myAVNMResourceGroup /providers/Microsoft.Network/networkManagers/myAVNM/verifierWorkspaces/myVerifierWorkspace /reachabilityAnalysisIntents/myAnalysisIntent\u201d"
+                                  "network manager verifier-workspace reachability-analysis-run create --name \"myAnalysisRun\" --workspace-name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --subscription \"00000000-0000-0000-0000-000000000000\" --description “hello world analysis run” --intent-id “/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/ myAVNMResourceGroup /providers/Microsoft.Network/networkManagers/myAVNM/verifierWorkspaces/myVerifierWorkspace /reachabilityAnalysisIntents/myAnalysisIntent”"
                                 ],
                                 "name": "ReachabilityAnalysisRunCreate"
                               }
@@ -138216,7 +139528,7 @@
                             "examples": [
                               {
                                 "commands": [
-                                  "network manager verifier-workspace reachability-analysis-run create --name \"myAnalysisRun\" --workspace-name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --subscription \"00000000-0000-0000-0000-000000000000\" --description \u201chello world analysis run\u201d --intent-id \u201c/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/ myAVNMResourceGroup /providers/Microsoft.Network/networkManagers/myAVNM/verifierWorkspaces/myVerifierWorkspace /reachabilityAnalysisIntents/myAnalysisIntent\u201d"
+                                  "network manager verifier-workspace reachability-analysis-run create --name \"myAnalysisRun\" --workspace-name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --subscription \"00000000-0000-0000-0000-000000000000\" --description “hello world analysis run” --intent-id “/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/ myAVNMResourceGroup /providers/Microsoft.Network/networkManagers/myAVNM/verifierWorkspaces/myVerifierWorkspace /reachabilityAnalysisIntents/myAnalysisIntent”"
                                 ],
                                 "name": "ReachabilityAnalysisRunCreate"
                               }
@@ -138248,7 +139560,7 @@
                             "examples": [
                               {
                                 "commands": [
-                                  "network manager verifier-workspace reachability-analysis-run delete --workspace-name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --name \u201cmyAnalysisRun\u201d --subscription \"00000000-0000-0000-0000-000000000000\""
+                                  "network manager verifier-workspace reachability-analysis-run delete --workspace-name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --name “myAnalysisRun” --subscription \"00000000-0000-0000-0000-000000000000\""
                                 ],
                                 "name": "ReachabilityAnalysisRunDelete"
                               }
@@ -138267,7 +139579,7 @@
                             "examples": [
                               {
                                 "commands": [
-                                  "network manager verifier-workspace reachability-analysis-run delete --workspace-name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --name \u201cmyAnalysisRun\u201d --subscription \"00000000-0000-0000-0000-000000000000\""
+                                  "network manager verifier-workspace reachability-analysis-run delete --workspace-name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --name “myAnalysisRun” --subscription \"00000000-0000-0000-0000-000000000000\""
                                 ],
                                 "name": "ReachabilityAnalysisRunDelete"
                               }
@@ -138448,7 +139760,7 @@
                         "examples": [
                           {
                             "commands": [
-                              "network manager verifier-workspace create --name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --subscription \"00000000-0000-0000-0000-000000000000\" --description \u201chello world workspace\u201d --tags [\u201ccolor\u201d: \u201cblue\u201d] --location \"eastus\""
+                              "network manager verifier-workspace create --name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --subscription \"00000000-0000-0000-0000-000000000000\" --description “hello world workspace” --tags [“color”: “blue”] --location \"eastus\""
                             ],
                             "name": "VerifierWorkspaceCreate"
                           }
@@ -138467,7 +139779,7 @@
                         "examples": [
                           {
                             "commands": [
-                              "network manager verifier-workspace create --name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --subscription \"00000000-0000-0000-0000-000000000000\" --description \u201chello world workspace\u201d --tags [\u201ccolor\u201d: \u201cblue\u201d] --location \"eastus\""
+                              "network manager verifier-workspace create --name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --subscription \"00000000-0000-0000-0000-000000000000\" --description “hello world workspace” --tags [“color”: “blue”] --location \"eastus\""
                             ],
                             "name": "VerifierWorkspaceCreate"
                           }
@@ -138648,7 +139960,7 @@
                         "examples": [
                           {
                             "commands": [
-                              "network manager verifier-workspace update --name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --subscription \"00000000-0000-0000-0000-000000000000\" --description \u201chello world workspace\u201d"
+                              "network manager verifier-workspace update --name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --subscription \"00000000-0000-0000-0000-000000000000\" --description “hello world workspace”"
                             ],
                             "name": "VerifierWorkspaceUpdate"
                           }
@@ -138667,7 +139979,7 @@
                         "examples": [
                           {
                             "commands": [
-                              "network manager verifier-workspace update --name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --subscription \"00000000-0000-0000-0000-000000000000\" --description \u201chello world workspace\u201d"
+                              "network manager verifier-workspace update --name \"myVerifierWorkspace\" --network-manager-name \"myAVNM\" --resource-group \"myAVNMResourceGroup\" --subscription \"00000000-0000-0000-0000-000000000000\" --description “hello world workspace”"
                             ],
                             "name": "VerifierWorkspaceUpdate"
                           }
@@ -191533,7 +192845,7 @@
                   },
                   "decline": {
                     "help": {
-                      "short": "Declines a machine that is pending approval during registration. This effectively \u201cdead ends\u201d this machine and is an explicit refusal to let the machine proceed with further provisioning."
+                      "short": "Declines a machine that is pending approval during registration. This effectively “dead ends” this machine and is an explicit refusal to let the machine proceed with further provisioning."
                     },
                     "names": [
                       "networkcloud",
@@ -231100,7 +232412,7 @@
               },
               "update": {
                 "help": {
-                  "short": "Update the specific troubleshooter action under a resource or subscription using the \u2018solutionId\u2019 and  \u2018properties.parameters\u2019 as the trigger. <br/> Azure Troubleshooters help with hard to classify issues, reducing the gap between customer observed problems and solutions by guiding the user effortlessly through the troubleshooting process. Each Troubleshooter flow represents a problem area within Azure and has a complex tree-like structure that addresses many root causes. These flows are prepared with the help of Subject Matter experts and customer support engineers by carefully considering previous support requests raised by customers. Troubleshooters terminate at a well curated solution based off of resource backend signals and customer manual selections."
+                  "short": "Update the specific troubleshooter action under a resource or subscription using the ‘solutionId’ and  ‘properties.parameters’ as the trigger. <br/> Azure Troubleshooters help with hard to classify issues, reducing the gap between customer observed problems and solutions by guiding the user effortlessly through the troubleshooting process. Each Troubleshooter flow represents a problem area within Azure and has a complex tree-like structure that addresses many root causes. These flows are prepared with the help of Subject Matter experts and customer support engineers by carefully considering previous support requests raised by customers. Troubleshooters terminate at a well curated solution based off of resource backend signals and customer manual selections."
                 },
                 "names": [
                   "self-help",
@@ -247458,7 +248770,90 @@
             "names": [
               "storage-mover",
               "endpoint"
-            ]
+            ],
+            "commandGroups": {
+              "identity": {
+                "names": [
+                  "storage-mover",
+                  "endpoint",
+                  "identity"
+                ],
+                "help": {
+                  "short": "Manage Identity"
+                },
+                "commands": {
+                  "assign": {
+                    "names": [
+                      "storage-mover",
+                      "endpoint",
+                      "identity",
+                      "assign"
+                    ],
+                    "help": {
+                      "short": "Assign identity to an Endpoint."
+                    },
+                    "versions": [
+                      {
+                        "name": "2025-12-01",
+                        "resources": [
+                          {
+                            "id": "/subscriptions/{}/resourcegroups/{}/providers/microsoft.storagemover/storagemovers/{}/endpoints/{}",
+                            "plane": "mgmt-plane",
+                            "version": "2025-12-01"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "remove": {
+                    "names": [
+                      "storage-mover",
+                      "endpoint",
+                      "identity",
+                      "remove"
+                    ],
+                    "help": {
+                      "short": "Remove identity from an Endpoint."
+                    },
+                    "versions": [
+                      {
+                        "name": "2025-12-01",
+                        "resources": [
+                          {
+                            "id": "/subscriptions/{}/resourcegroups/{}/providers/microsoft.storagemover/storagemovers/{}/endpoints/{}",
+                            "plane": "mgmt-plane",
+                            "version": "2025-12-01"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "show": {
+                    "names": [
+                      "storage-mover",
+                      "endpoint",
+                      "identity",
+                      "show"
+                    ],
+                    "help": {
+                      "short": "Show identity of an Endpoint."
+                    },
+                    "versions": [
+                      {
+                        "name": "2025-12-01",
+                        "resources": [
+                          {
+                            "id": "/subscriptions/{}/resourcegroups/{}/providers/microsoft.storagemover/storagemovers/{}/endpoints/{}",
+                            "plane": "mgmt-plane",
+                            "version": "2025-12-01"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            }
           },
           "job-definition": {
             "commands": {
@@ -248668,6 +250063,127 @@
               "storage-mover",
               "project"
             ]
+          },
+          "connection": {
+            "names": [
+              "storage-mover",
+              "connection"
+            ],
+            "help": {
+              "short": "Manage Connection"
+            },
+            "commands": {
+              "create": {
+                "names": [
+                  "storage-mover",
+                  "connection",
+                  "create"
+                ],
+                "help": {
+                  "short": "Create a Connection resource."
+                },
+                "versions": [
+                  {
+                    "name": "2025-12-01",
+                    "resources": [
+                      {
+                        "id": "/subscriptions/{}/resourcegroups/{}/providers/microsoft.storagemover/storagemovers/{}/connections/{}",
+                        "plane": "mgmt-plane",
+                        "version": "2025-12-01"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "delete": {
+                "names": [
+                  "storage-mover",
+                  "connection",
+                  "delete"
+                ],
+                "help": {
+                  "short": "Delete a Connection resource."
+                },
+                "versions": [
+                  {
+                    "name": "2025-12-01",
+                    "resources": [
+                      {
+                        "id": "/subscriptions/{}/resourcegroups/{}/providers/microsoft.storagemover/storagemovers/{}/connections/{}",
+                        "plane": "mgmt-plane",
+                        "version": "2025-12-01"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "list": {
+                "names": [
+                  "storage-mover",
+                  "connection",
+                  "list"
+                ],
+                "help": {
+                  "short": "List all Connections in a Storage Mover."
+                },
+                "versions": [
+                  {
+                    "name": "2025-12-01",
+                    "resources": [
+                      {
+                        "id": "/subscriptions/{}/resourcegroups/{}/providers/microsoft.storagemover/storagemovers/{}/connections",
+                        "plane": "mgmt-plane",
+                        "version": "2025-12-01"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "show": {
+                "names": [
+                  "storage-mover",
+                  "connection",
+                  "show"
+                ],
+                "help": {
+                  "short": "Get a Connection resource."
+                },
+                "versions": [
+                  {
+                    "name": "2025-12-01",
+                    "resources": [
+                      {
+                        "id": "/subscriptions/{}/resourcegroups/{}/providers/microsoft.storagemover/storagemovers/{}/connections/{}",
+                        "plane": "mgmt-plane",
+                        "version": "2025-12-01"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "update": {
+                "names": [
+                  "storage-mover",
+                  "connection",
+                  "update"
+                ],
+                "help": {
+                  "short": "Update a Connection resource."
+                },
+                "versions": [
+                  {
+                    "name": "2025-12-01",
+                    "resources": [
+                      {
+                        "id": "/subscriptions/{}/resourcegroups/{}/providers/microsoft.storagemover/storagemovers/{}/connections/{}",
+                        "plane": "mgmt-plane",
+                        "version": "2025-12-01"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
           }
         },
         "commands": {
@@ -264894,6 +266410,509 @@
         },
         "names": [
           "workloads"
+        ]
+      },
+      "fileshare": {
+        "commandGroups": {
+          "private-endpoint-connection": {
+            "commands": {
+              "create": {
+                "help": {
+                  "short": "Create the state of specified private endpoint connection associated with the file share."
+                },
+                "names": [
+                  "fileshare",
+                  "private-endpoint-connection",
+                  "create"
+                ],
+                "versions": [
+                  {
+                    "name": "2025-09-01-preview",
+                    "resources": [
+                      {
+                        "id": "/subscriptions/{}/resourcegroups/{}/providers/microsoft.fileshares/fileshares/{}/privateendpointconnections/{}",
+                        "plane": "mgmt-plane",
+                        "version": "2025-09-01-preview"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "delete": {
+                "help": {
+                  "short": "Delete the specified private endpoint connection associated with the file share."
+                },
+                "names": [
+                  "fileshare",
+                  "private-endpoint-connection",
+                  "delete"
+                ],
+                "versions": [
+                  {
+                    "name": "2025-09-01-preview",
+                    "resources": [
+                      {
+                        "id": "/subscriptions/{}/resourcegroups/{}/providers/microsoft.fileshares/fileshares/{}/privateendpointconnections/{}",
+                        "plane": "mgmt-plane",
+                        "version": "2025-09-01-preview"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "list": {
+                "help": {
+                  "short": "List private endpoint connections for a file share."
+                },
+                "names": [
+                  "fileshare",
+                  "private-endpoint-connection",
+                  "list"
+                ],
+                "versions": [
+                  {
+                    "name": "2025-09-01-preview",
+                    "resources": [
+                      {
+                        "id": "/subscriptions/{}/resourcegroups/{}/providers/microsoft.fileshares/fileshares/{}/privateendpointconnections",
+                        "plane": "mgmt-plane",
+                        "version": "2025-09-01-preview"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "show": {
+                "help": {
+                  "short": "Get the specified private endpoint connection associated with the file share."
+                },
+                "names": [
+                  "fileshare",
+                  "private-endpoint-connection",
+                  "show"
+                ],
+                "versions": [
+                  {
+                    "name": "2025-09-01-preview",
+                    "resources": [
+                      {
+                        "id": "/subscriptions/{}/resourcegroups/{}/providers/microsoft.fileshares/fileshares/{}/privateendpointconnections/{}",
+                        "plane": "mgmt-plane",
+                        "version": "2025-09-01-preview"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "update": {
+                "help": {
+                  "short": "Update the state of specified private endpoint connection associated with the file share."
+                },
+                "names": [
+                  "fileshare",
+                  "private-endpoint-connection",
+                  "update"
+                ],
+                "versions": [
+                  {
+                    "name": "2025-09-01-preview",
+                    "resources": [
+                      {
+                        "id": "/subscriptions/{}/resourcegroups/{}/providers/microsoft.fileshares/fileshares/{}/privateendpointconnections/{}",
+                        "plane": "mgmt-plane",
+                        "version": "2025-09-01-preview"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "help": {
+              "short": "Manage private endpoint connections for file shares."
+            },
+            "names": [
+              "fileshare",
+              "private-endpoint-connection"
+            ]
+          },
+          "private-link-resource": {
+            "commands": {
+              "list": {
+                "help": {
+                  "short": "List the private link resources that need to be created for a file share."
+                },
+                "names": [
+                  "fileshare",
+                  "private-link-resource",
+                  "list"
+                ],
+                "versions": [
+                  {
+                    "name": "2025-09-01-preview",
+                    "resources": [
+                      {
+                        "id": "/subscriptions/{}/resourcegroups/{}/providers/microsoft.fileshares/fileshares/{}/privatelinkresources",
+                        "plane": "mgmt-plane",
+                        "version": "2025-09-01-preview"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "show": {
+                "help": {
+                  "short": "Get the private link resources that need to be created for a file share."
+                },
+                "names": [
+                  "fileshare",
+                  "private-link-resource",
+                  "show"
+                ],
+                "versions": [
+                  {
+                    "name": "2025-09-01-preview",
+                    "resources": [
+                      {
+                        "id": "/subscriptions/{}/resourcegroups/{}/providers/microsoft.fileshares/fileshares/{}/privatelinkresources/{}",
+                        "plane": "mgmt-plane",
+                        "version": "2025-09-01-preview"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "help": {
+              "short": "Manage private link resources for file shares."
+            },
+            "names": [
+              "fileshare",
+              "private-link-resource"
+            ]
+          },
+          "snapshot": {
+            "commands": {
+              "create": {
+                "help": {
+                  "short": "Create a file share snapshot."
+                },
+                "names": [
+                  "fileshare",
+                  "snapshot",
+                  "create"
+                ],
+                "versions": [
+                  {
+                    "name": "2025-09-01-preview",
+                    "resources": [
+                      {
+                        "id": "/subscriptions/{}/resourcegroups/{}/providers/microsoft.fileshares/fileshares/{}/filesharesnapshots/{}",
+                        "plane": "mgmt-plane",
+                        "version": "2025-09-01-preview"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "delete": {
+                "help": {
+                  "short": "Delete a file share snapshot."
+                },
+                "names": [
+                  "fileshare",
+                  "snapshot",
+                  "delete"
+                ],
+                "versions": [
+                  {
+                    "name": "2025-09-01-preview",
+                    "resources": [
+                      {
+                        "id": "/subscriptions/{}/resourcegroups/{}/providers/microsoft.fileshares/fileshares/{}/filesharesnapshots/{}",
+                        "plane": "mgmt-plane",
+                        "version": "2025-09-01-preview"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "list": {
+                "help": {
+                  "short": "List file share snapshots."
+                },
+                "names": [
+                  "fileshare",
+                  "snapshot",
+                  "list"
+                ],
+                "versions": [
+                  {
+                    "name": "2025-09-01-preview",
+                    "resources": [
+                      {
+                        "id": "/subscriptions/{}/resourcegroups/{}/providers/microsoft.fileshares/fileshares/{}/filesharesnapshots",
+                        "plane": "mgmt-plane",
+                        "version": "2025-09-01-preview"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "show": {
+                "help": {
+                  "short": "Get a file share snapshot."
+                },
+                "names": [
+                  "fileshare",
+                  "snapshot",
+                  "show"
+                ],
+                "versions": [
+                  {
+                    "name": "2025-09-01-preview",
+                    "resources": [
+                      {
+                        "id": "/subscriptions/{}/resourcegroups/{}/providers/microsoft.fileshares/fileshares/{}/filesharesnapshots/{}",
+                        "plane": "mgmt-plane",
+                        "version": "2025-09-01-preview"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "update": {
+                "help": {
+                  "short": "Update a file share snapshot."
+                },
+                "names": [
+                  "fileshare",
+                  "snapshot",
+                  "update"
+                ],
+                "versions": [
+                  {
+                    "name": "2025-09-01-preview",
+                    "resources": [
+                      {
+                        "id": "/subscriptions/{}/resourcegroups/{}/providers/microsoft.fileshares/fileshares/{}/filesharesnapshots/{}",
+                        "plane": "mgmt-plane",
+                        "version": "2025-09-01-preview"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "help": {
+              "short": "Manage file share snapshots."
+            },
+            "names": [
+              "fileshare",
+              "snapshot"
+            ]
+          }
+        },
+        "commands": {
+          "check-name-availability": {
+            "help": {
+              "short": "Check if a file share name is available."
+            },
+            "names": [
+              "fileshare",
+              "check-name-availability"
+            ],
+            "versions": [
+              {
+                "name": "2025-09-01-preview",
+                "resources": [
+                  {
+                    "id": "/subscriptions/{}/providers/microsoft.fileshares/locations/{}/checknameavailability",
+                    "plane": "mgmt-plane",
+                    "version": "2025-09-01-preview"
+                  }
+                ]
+              }
+            ]
+          },
+          "create": {
+            "help": {
+              "short": "Create a file share."
+            },
+            "names": [
+              "fileshare",
+              "create"
+            ],
+            "versions": [
+              {
+                "name": "2025-09-01-preview",
+                "resources": [
+                  {
+                    "id": "/subscriptions/{}/resourcegroups/{}/providers/microsoft.fileshares/fileshares/{}",
+                    "plane": "mgmt-plane",
+                    "version": "2025-09-01-preview"
+                  }
+                ]
+              }
+            ]
+          },
+          "delete": {
+            "help": {
+              "short": "Delete a file share."
+            },
+            "names": [
+              "fileshare",
+              "delete"
+            ],
+            "versions": [
+              {
+                "name": "2025-09-01-preview",
+                "resources": [
+                  {
+                    "id": "/subscriptions/{}/resourcegroups/{}/providers/microsoft.fileshares/fileshares/{}",
+                    "plane": "mgmt-plane",
+                    "version": "2025-09-01-preview"
+                  }
+                ]
+              }
+            ]
+          },
+          "get-provisioning-recommendation": {
+            "help": {
+              "short": "Get file share provisioning recommendation."
+            },
+            "names": [
+              "fileshare",
+              "get-provisioning-recommendation"
+            ],
+            "versions": [
+              {
+                "name": "2025-09-01-preview",
+                "resources": [
+                  {
+                    "id": "/subscriptions/{}/providers/microsoft.fileshares/locations/{}/getprovisioningrecommendation",
+                    "plane": "mgmt-plane",
+                    "version": "2025-09-01-preview"
+                  }
+                ]
+              }
+            ]
+          },
+          "limits-show": {
+            "help": {
+              "short": "Get file share limits and provisioning constants."
+            },
+            "names": [
+              "fileshare",
+              "limits-show"
+            ],
+            "versions": [
+              {
+                "name": "2025-09-01-preview",
+                "resources": [
+                  {
+                    "id": "/subscriptions/{}/providers/microsoft.fileshares/locations/{}/getlimits",
+                    "plane": "mgmt-plane",
+                    "version": "2025-09-01-preview"
+                  }
+                ]
+              }
+            ]
+          },
+          "list": {
+            "help": {
+              "short": "List file shares."
+            },
+            "names": [
+              "fileshare",
+              "list"
+            ],
+            "versions": [
+              {
+                "name": "2025-09-01-preview",
+                "resources": [
+                  {
+                    "id": "/subscriptions/{}/providers/microsoft.fileshares/fileshares",
+                    "plane": "mgmt-plane",
+                    "version": "2025-09-01-preview"
+                  },
+                  {
+                    "id": "/subscriptions/{}/resourcegroups/{}/providers/microsoft.fileshares/fileshares",
+                    "plane": "mgmt-plane",
+                    "version": "2025-09-01-preview"
+                  }
+                ]
+              }
+            ]
+          },
+          "show": {
+            "help": {
+              "short": "Get a file share."
+            },
+            "names": [
+              "fileshare",
+              "show"
+            ],
+            "versions": [
+              {
+                "name": "2025-09-01-preview",
+                "resources": [
+                  {
+                    "id": "/subscriptions/{}/resourcegroups/{}/providers/microsoft.fileshares/fileshares/{}",
+                    "plane": "mgmt-plane",
+                    "version": "2025-09-01-preview"
+                  }
+                ]
+              }
+            ]
+          },
+          "update": {
+            "help": {
+              "short": "Update a file share."
+            },
+            "names": [
+              "fileshare",
+              "update"
+            ],
+            "versions": [
+              {
+                "name": "2025-09-01-preview",
+                "resources": [
+                  {
+                    "id": "/subscriptions/{}/resourcegroups/{}/providers/microsoft.fileshares/fileshares/{}",
+                    "plane": "mgmt-plane",
+                    "version": "2025-09-01-preview"
+                  }
+                ]
+              }
+            ]
+          },
+          "usage-show": {
+            "help": {
+              "short": "Get file share usage data."
+            },
+            "names": [
+              "fileshare",
+              "usage-show"
+            ],
+            "versions": [
+              {
+                "name": "2025-09-01-preview",
+                "resources": [
+                  {
+                    "id": "/subscriptions/{}/providers/microsoft.fileshares/locations/{}/getusagedata",
+                    "plane": "mgmt-plane",
+                    "version": "2025-09-01-preview"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "help": {
+          "short": "Manage Azure File Shares."
+        },
+        "names": [
+          "fileshare"
         ]
       }
     },

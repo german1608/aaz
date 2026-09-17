@@ -51,6 +51,9 @@ Manage Linux or Windows virtual machines.
 - [generalize](/Commands/vm/_generalize.md)
 : Mark a VM as generalized, allowing it to be imaged for multiple deployments.
 
+- [install-patches](/Commands/vm/_install-patches.md)
+: Installs patches on the VM.
+
 - [list](/Commands/vm/_list.md)
 : List all of the virtual machines in the specified resource group. Use the nextLink property in the response to get the next page of virtual machines.
 
@@ -62,6 +65,9 @@ Manage Linux or Windows virtual machines.
 
 - [list-skus](/Commands/vm/_list-skus.md)
 : Get details for compute-related resource SKUs.
+
+- [list-usage](/Commands/vm/_list-usage.md)
+: List available usage resources for VMs.
 
 - [list-vm-resize-options](/Commands/vm/_list-vm-resize-options.md)
 : List available resizing options for VMs.
@@ -81,6 +87,9 @@ Manage Linux or Windows virtual machines.
 - [reimage](/Commands/vm/_reimage.md)
 : Reimage (upgrade the operating system) a virtual machine.
 
+- [restart](/Commands/vm/_restart.md)
+: The operation to restart a virtual machine.
+
 - [show](/Commands/vm/_show.md)
 : Get information about the model view or the instance view of a virtual machine.
 
@@ -89,6 +98,9 @@ Manage Linux or Windows virtual machines.
 
 - [start](/Commands/vm/_start.md)
 : Start a stopped VM.
+
+- [stop](/Commands/vm/_stop.md)
+: Power off (stop) a running VM.
 
 - [update](/Commands/vm/_update.md)
 : Update operation to create or update a virtual machine. Please note some properties can be set only during virtual machine creation.

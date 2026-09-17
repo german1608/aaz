@@ -10,6 +10,12 @@ Manage groupings of virtual machines in an Azure Virtual Machine Scale Set (VMSS
 - [identity](/Commands/vmss/identity/readme.md)
 : Manage identities of a VMSS.
 
+- [instance-view](/Commands/vmss/instance-view/readme.md)
+: Manage Instance View
+
+- [lifecycle-hook-event](/Commands/vmss/lifecycle-hook-event/readme.md)
+: Manage Lifecycle Hook Event
+
 - [nic](/Commands/vmss/nic/readme.md)
 : Manage network interfaces of a VMSS.
 
@@ -19,10 +25,16 @@ Manage groupings of virtual machines in an Azure Virtual Machine Scale Set (VMSS
 - [run-command](/Commands/vmss/run-command/readme.md)
 : Manage Run Command
 
+- [vms](/Commands/vmss/vms/readme.md)
+: Manage Virtual Machine
+
 ## Commands
 
 - [create](/Commands/vmss/_create.md)
 : Create a VM scale set.
+
+- [deallocate](/Commands/vmss/_deallocate.md)
+: Deallocates specific virtual machines in a VM scale set. Shuts down the virtual machines and releases the compute resources. You are not billed for the compute resources that this virtual machine scale set deallocates.
 
 - [delete](/Commands/vmss/_delete.md)
 : Delete a VM scale set.
@@ -45,8 +57,23 @@ Manage groupings of virtual machines in an Azure Virtual Machine Scale Set (VMSS
 - [list-skus](/Commands/vmss/_list-skus.md)
 : List SKUs available for your VM scale set, including the minimum and maximum VM instances allowed for each SKU.
 
+- [manualupgrade](/Commands/vmss/_manualupgrade.md)
+: Upgrades one or more virtual machines to the latest SKU set in the VM scale set model.
+
 - [perform-maintenance](/Commands/vmss/_perform-maintenance.md)
 : Perform maintenance on one or more virtual machines in a VM scale set. Operation on instances which are not eligible for perform maintenance will be failed. Please refer to best practices for more details: https://learn.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-maintenance-notifications
+
+- [reimage](/Commands/vmss/_reimage.md)
+: Reimages (upgrade the operating system) one or more virtual machines in a VM scale set which don't have a ephemeral OS disk, for virtual machines who have a ephemeral OS disk the virtual machine is reset to initial state.
+
+- [reimageall](/Commands/vmss/_reimageall.md)
+: Reimages all the disks ( including data disks ) in the virtual machines in a VM scale set. This operation is only supported for managed disks.
+
+- [restart](/Commands/vmss/_restart.md)
+: Restarts one or more virtual machines in a VM scale set.
+
+- [set-orchestration-service-state](/Commands/vmss/_set-orchestration-service-state.md)
+: Changes ServiceState property for a given service
 
 - [show](/Commands/vmss/_show.md)
 : Get information about a virtual machine scale set.
@@ -56,6 +83,9 @@ Manage groupings of virtual machines in an Azure Virtual Machine Scale Set (VMSS
 
 - [start](/Commands/vmss/_start.md)
 : Start VMs within a VMSS.
+
+- [stop](/Commands/vmss/_stop.md)
+: Power off (stop) one or more virtual machines in a VM scale set. Note that resources are still attached and you are getting charged for the resources. Instead, use deallocate to release resources and avoid charges.
 
 - [update](/Commands/vmss/_update.md)
 : Update a VM scale set.

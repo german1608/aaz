@@ -11,8 +11,8 @@
 - [afd](/Commands/afd/readme.md)
 : Manage Azure Front Door Standard/Premium.
 
-- [aks](/Commands/aks/readme.md)
-: Azure Kubernetes Service
+- [agentmesh](/Commands/agentmesh/readme.md)
+: Manage Azure Agent Mesh resources.
 
 - [alerts-management](/Commands/alerts-management/readme.md)
 : Manage Azure Alerts Management Service Resource.
@@ -26,6 +26,12 @@
 - [apic](/Commands/apic/readme.md)
 : Manage Azure API Center services
 
+- [appnet](/Commands/appnet/readme.md)
+: Azure Kubernetes Application Network
+
+- [apr](/Commands/apr/readme.md)
+: Manage Azure Package Registry
+
 - [arc](/Commands/arc/readme.md)
 : Manage Azure Arc Machines.
 
@@ -35,8 +41,8 @@
 - [arcgateway](/Commands/arcgateway/readme.md)
 : Manage gateway connection on Arc machine
 
-- [arize-ai](/Commands/arize-ai/readme.md)
-: Manage Arize Ai
+- [artifact-signing](/Commands/artifact-signing/readme.md)
+: Manage artifact signing account.
 
 - [astronomer](/Commands/astronomer/readme.md)
 : Manage Azure Astronomer resources.
@@ -77,11 +83,11 @@
 - [change-analysis](/Commands/change-analysis/readme.md)
 : List changes for resources
 
+- [chaos](/Commands/chaos/readme.md)
+: Manage Azure Chaos Studio resources.
+
 - [cloud-service](/Commands/cloud-service/readme.md)
 : Manage cloud service
-
-- [cloudhsm](/Commands/cloudhsm/readme.md)
-: Manage Cloud Hsm Cluster
 
 - [communication](/Commands/communication/readme.md)
 : Manage communication service with communication.
@@ -94,6 +100,9 @@
 
 - [compute-recommender](/Commands/compute-recommender/readme.md)
 : Manage sku/zone/region recommender info for compute resources
+
+- [computelimit](/Commands/computelimit/readme.md)
+: Manage compute shared limit resources
 
 - [computeschedule](/Commands/computeschedule/readme.md)
 : Computeschedule batch virtual machine operations
@@ -119,9 +128,6 @@
 - [data-boundary](/Commands/data-boundary/readme.md)
 : data boundary operations
 
-- [data-transfer](/Commands/data-transfer/readme.md)
-: Data transfer commands
-
 - [databox](/Commands/databox/readme.md)
 : Manage data box
 
@@ -131,20 +137,20 @@
 - [databricks](/Commands/databricks/readme.md)
 : Manage databricks workspaces.
 
-- [datadog](/Commands/datadog/readme.md)
-: Manage Datadog
-
 - [dataprotection](/Commands/dataprotection/readme.md)
 : Manage dataprotection.
 
-- [dependency-map](/Commands/dependency-map/readme.md)
-: Manage Dependency Map
+- [dell](/Commands/dell/readme.md)
+: Manage Dell
 
 - [desktopvirtualization](/Commands/desktopvirtualization/readme.md)
 : Manage desktop virtualization.
 
 - [devcenter](/Commands/devcenter/readme.md)
 : Manage resources with devcenter.
+
+- [discovery](/Commands/discovery/readme.md)
+: Manage Microsoft Discovery resources.
 
 - [disk](/Commands/disk/readme.md)
 : Manage Azure Managed Disks.
@@ -160,6 +166,9 @@
 
 - [dns-resolver](/Commands/dns-resolver/readme.md)
 : Manage Dns Resolver
+
+- [documentdb](/Commands/documentdb/readme.md)
+: Manage Document Db
 
 - [durabletask](/Commands/durabletask/readme.md)
 : Commands to manage Durabletask schedulers and taskhubs
@@ -182,6 +191,9 @@
 - [eventhubs](/Commands/eventhubs/readme.md)
 : Manage Event Hub
 
+- [fileshare](/Commands/fileshare/readme.md)
+: Manage Azure File Shares.
+
 - [firmwareanalysis](/Commands/firmwareanalysis/readme.md)
 : Commands to manage firmware analysis.
 
@@ -197,20 +209,26 @@
 - [healthcareapis](/Commands/healthcareapis/readme.md)
 : Azure Healthcare APIs is a secure cloud platform for managing health data, supporting analytics, machine learning, and scalable solutions.
 
+- [identity](/Commands/identity/readme.md)
+: Manage Managed Identity
+
 - [image](/Commands/image/readme.md)
 : Manage custom virtual machine images.
 
 - [informatica](/Commands/informatica/readme.md)
 : Manage all resources related to Informatica within the Azure CLI.
 
+- [interconnect-block](/Commands/interconnect-block/readme.md)
+: Manage Interconnect Block
+
+- [interconnect-group](/Commands/interconnect-group/readme.md)
+: Manage Interconnect Group
+
 - [k8s-runtime](/Commands/k8s-runtime/readme.md)
 : Manage Arc Kubernetes Runtime resources
 
 - [lab](/Commands/lab/readme.md)
 : Manage azure devtest labs.
-
-- [lambda-test](/Commands/lambda-test/readme.md)
-: Manage Lambda Test
 
 - [large-instance](/Commands/large-instance/readme.md)
 : Handle Operations for Compute Azure Large Instances.
@@ -227,6 +245,9 @@
 - [maintenance](/Commands/maintenance/readme.md)
 : Manage Maintenance
 
+- [managedcleanroom](/Commands/managedcleanroom/readme.md)
+: Manage Azure Confidential Clean Room
+
 - [managedservices](/Commands/managedservices/readme.md)
 : Manage the registration assignments and definitions in Azure.
 
@@ -242,14 +263,20 @@
 - [mesh](/Commands/mesh/readme.md)
 : (PREVIEW) Manage Azure Service Fabric Mesh Resources.
 
+- [mission](/Commands/mission/readme.md)
+: Manage Mission
+
 - [mobile-network](/Commands/mobile-network/readme.md)
 : Manage mobile network
 
 - [mongo-db](/Commands/mongo-db/readme.md)
-: Manage MongoDB
+: Manage Mongo Db
 
 - [monitor](/Commands/monitor/readme.md)
 : Manage the Azure Monitor Service.
+
+- [napster](/Commands/napster/readme.md)
+: Manage Napster
 
 - [neon](/Commands/neon/readme.md)
 : Manage Neon Postgres databases and related resources within Azure.
@@ -305,9 +332,6 @@
 - [ppg](/Commands/ppg/readme.md)
 : Manage Proximity Placement Groups.
 
-- [pscloud](/Commands/pscloud/readme.md)
-: Manage Pure Storage Block resources
-
 - [qumulo](/Commands/qumulo/readme.md)
 : Manage Qumulo file system storage resources with the Azure CLI.
 
@@ -316,6 +340,9 @@
 
 - [redisenterprise](/Commands/redisenterprise/readme.md)
 : Manage the redisenterprise cache
+
+- [relationship](/Commands/relationship/readme.md)
+: Manage Relationships
 
 - [relay](/Commands/relay/readme.md)
 : Manage Azure Relay Service namespaces, WCF relays, hybrid connections, and rules.
@@ -332,8 +359,8 @@
 - [restore-point](/Commands/restore-point/readme.md)
 : Manage restore point with res.
 
-- [search](/Commands/search/readme.md)
-: Manage Search
+- [role](/Commands/role/readme.md)
+: Manage Azure role-based access control (Azure RBAC)
 
 - [security](/Commands/security/readme.md)
 : Manage your security posture with Microsoft Defender for Cloud.
@@ -344,17 +371,17 @@
 - [sentinel](/Commands/sentinel/readme.md)
 : Manage Microsoft Sentinel.
 
+- [service-group](/Commands/service-group/readme.md)
+: Manage Service Group
+
 - [service-networking](/Commands/service-networking/readme.md)
 : Manage Service Networking Resources
 
 - [servicebus](/Commands/servicebus/readme.md)
-: servicebus
+: Manage Service Bus
 
 - [sig](/Commands/sig/readme.md)
 : Manage shared image gallery.
-
-- [site](/Commands/site/readme.md)
-: Manage Site
 
 - [site-recovery](/Commands/site-recovery/readme.md)
 : Manage Site Recovery Service
@@ -365,8 +392,14 @@
 - [spatial-anchors-account](/Commands/spatial-anchors-account/readme.md)
 : Manage spatial anchor account with mixed reality.
 
+- [spatio](/Commands/spatio/readme.md)
+: Manage Planetary Computer resources
+
 - [sql](/Commands/sql/readme.md)
 : Manage Azure SQL Databases and Data Warehouses.
+
+- [sshkey](/Commands/sshkey/readme.md)
+: Manage Ssh Public Key
 
 - [stack-hci](/Commands/stack-hci/readme.md)
 : Manage Azure Stack HCI.
@@ -382,9 +415,6 @@
 
 - [storage-actions](/Commands/storage-actions/readme.md)
 : Manage StorageActions
-
-- [storage-discovery](/Commands/storage-discovery/readme.md)
-: Manage Storage Discovery
 
 - [storage-mover](/Commands/storage-mover/readme.md)
 : Manage top-level Storage Mover resource.
@@ -418,9 +448,6 @@
 
 - [voice-service](/Commands/voice-service/readme.md)
 : Manage voice services
-
-- [workload-orchestration](/Commands/workload-orchestration/readme.md)
-: Manage Edge
 
 - [workloads](/Commands/workloads/readme.md)
 : Manage workloads

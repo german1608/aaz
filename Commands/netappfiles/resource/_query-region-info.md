@@ -69,3 +69,69 @@ Provides storage to network proximity and logical zone mapping information.
     ```bash
         netappfiles resource query-region-info -l westus
     ```
+
+### [2025-06-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5uZXRhcHAvbG9jYXRpb25zL3t9L3JlZ2lvbmluZm8=/2025-06-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/providers/microsoft.netapp/locations/{}/regioninfo 2025-06-01 -->
+
+#### examples
+
+- Describes region specific information
+    ```bash
+        netappfiles resource query-region-info -l westus
+    ```
+
+### [2025-09-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5uZXRhcHAvbG9jYXRpb25zL3t9L3JlZ2lvbmluZm8=/2025-09-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/providers/microsoft.netapp/locations/{}/regioninfo 2025-09-01 -->
+
+#### examples
+
+- Describes region specific information
+    ```bash
+        netappfiles resource query-region-info -l westus
+    ```
+
+### [2025-12-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5uZXRhcHAvbG9jYXRpb25zL3t9L3JlZ2lvbmluZm8=/2025-12-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/providers/microsoft.netapp/locations/{}/regioninfo 2025-12-01 -->
+
+#### examples
+
+- Describes region specific information
+    ```bash
+        netappfiles resource query-region-info -l westus
+    ```
+
+### [2026-01-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5uZXRhcHAvbG9jYXRpb25zL3t9L3JlZ2lvbmluZm8=/2026-01-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/providers/microsoft.netapp/locations/{}/regioninfo 2026-01-01 -->
+
+#### examples
+
+- Describes region specific information
+    ```bash
+        netappfiles resource query-region-info -l westus
+    ```
+
+### [2026-04-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5uZXRhcHAvbG9jYXRpb25zL3t9L3JlZ2lvbmluZm8=/2026-04-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/providers/microsoft.netapp/locations/{}/regioninfo 2026-04-01 -->
+
+#### examples
+
+- Describes region specific information
+    ```bash
+        netappfiles resource query-region-info -l westus
+    ```
+
+### [2026-05-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5uZXRhcHAvbG9jYXRpb25zL3t9L3JlZ2lvbmluZm8=/2026-05-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/providers/microsoft.netapp/locations/{}/regioninfo 2026-05-01 -->
+
+#### examples
+
+- Describes region specific information
+    ```bash
+        netappfiles resource query-region-info -l westus
+    ```

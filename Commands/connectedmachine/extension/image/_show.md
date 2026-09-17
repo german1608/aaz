@@ -47,3 +47,47 @@ Get an Extension Metadata based on location, publisher, extensionType and versio
     ```bash
         connectedmachine extension image show --publisher microsoft.azure.monitor --extension-type azuremonitorlinuxagent --location eastus --version 1.9.1
     ```
+
+### [2024-11-10-preview](/Resources/mgmt-plane/L3Byb3ZpZGVycy9taWNyb3NvZnQuaHlicmlkY29tcHV0ZS9sb2NhdGlvbnMve30vcHVibGlzaGVycy97fS9leHRlbnNpb250eXBlcy97fS92ZXJzaW9ucy97fQ==/2024-11-10-preview.xml) **Stable**
+
+<!-- mgmt-plane /providers/microsoft.hybridcompute/locations/{}/publishers/{}/extensiontypes/{}/versions/{} 2024-11-10-preview -->
+
+#### examples
+
+- GET an extension metadata
+    ```bash
+        connectedmachine extension image show --location EastUS --publisher microsoft.azure.monitor --extension-type azuremonitorlinuxagent --version 1.33.0
+    ```
+
+### [2025-09-16-preview](/Resources/mgmt-plane/L3Byb3ZpZGVycy9taWNyb3NvZnQuaHlicmlkY29tcHV0ZS9sb2NhdGlvbnMve30vcHVibGlzaGVycy97fS9leHRlbnNpb250eXBlcy97fS92ZXJzaW9ucy97fQ==/2025-09-16-preview.xml) **Stable**
+
+<!-- mgmt-plane /providers/microsoft.hybridcompute/locations/{}/publishers/{}/extensiontypes/{}/versions/{} 2025-09-16-preview -->
+
+#### examples
+
+- Sample command for extension image show
+    ```bash
+        connectedmachine extension image show --publisher microsoft.azure.monitor --extension-type azuremonitorlinuxagent --location eastus --version 1.9.1
+    ```
+
+### [2026-06-16-preview](/Resources/mgmt-plane/L3Byb3ZpZGVycy9taWNyb3NvZnQuaHlicmlkY29tcHV0ZS9sb2NhdGlvbnMve30vcHVibGlzaGVycy97fS9leHRlbnNpb250eXBlcy97fS92ZXJzaW9ucy97fQ==/2026-06-16-preview.xml) **Stable**
+
+<!-- mgmt-plane /providers/microsoft.hybridcompute/locations/{}/publishers/{}/extensiontypes/{}/versions/{} 2026-06-16-preview -->
+
+#### examples
+
+- Sample command for extension image show
+    ```bash
+        connectedmachine extension image show --publisher microsoft.azure.monitor --extension-type azuremonitorlinuxagent --location eastus --version 1.9.1
+    ```
+
+### [2026-07-15](/Resources/mgmt-plane/L3Byb3ZpZGVycy9taWNyb3NvZnQuaHlicmlkY29tcHV0ZS9sb2NhdGlvbnMve30vcHVibGlzaGVycy97fS9leHRlbnNpb250eXBlcy97fS92ZXJzaW9ucy97fQ==/2026-07-15.xml) **Stable**
+
+<!-- mgmt-plane /providers/microsoft.hybridcompute/locations/{}/publishers/{}/extensiontypes/{}/versions/{} 2026-07-15 -->
+
+#### examples
+
+- Sample command for extension image show
+    ```bash
+        connectedmachine extension image show --publisher microsoft.azure.monitor --extension-type azuremonitorlinuxagent --location eastus --version 1.9.1
+    ```

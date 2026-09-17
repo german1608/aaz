@@ -19,11 +19,17 @@ Manage the Azure Monitor Service.
 - [autoscale](/Commands/monitor/autoscale/readme.md)
 : Manage autoscale settings
 
+- [dashboard](/Commands/monitor/dashboard/readme.md)
+: Manage Dashboard with Grafana resources
+
 - [data-collection](/Commands/monitor/data-collection/readme.md)
 : Manage data collection for monitor control service.
 
 - [diagnostic-settings](/Commands/monitor/diagnostic-settings/readme.md)
 : Manage service diagnostic settings.
+
+- [health-models](/Commands/monitor/health-models/readme.md)
+: Manage Azure Monitor health models.
 
 - [log-analytics](/Commands/monitor/log-analytics/readme.md)
 : Manage Azure log analytics.
@@ -35,10 +41,13 @@ Manage the Azure Monitor Service.
 : View Azure resource metrics.
 
 - [pipeline-group](/Commands/monitor/pipeline-group/readme.md)
-: Manage Pipeline Groups
+: Manage Azure Monitor Pipelines
 
 - [private-link-scope](/Commands/monitor/private-link-scope/readme.md)
 : Manage monitor private link scope resource.
+
+- [sli](/Commands/monitor/sli/readme.md)
+: Manage Service Level Indicators (SLIs) in Azure Monitor.
 
 - [tenant-action-group](/Commands/monitor/tenant-action-group/readme.md)
 : monitor tenant-action-group

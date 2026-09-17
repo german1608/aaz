@@ -58,3 +58,14 @@ Get an Azure Front Door Standard or Azure Front Door Premium or CDN profile with
     ```bash
         afd profile show -g group --profile-name profile
     ```
+
+### [2025-09-01-preview](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5jZG4vcHJvZmlsZXMve30=/2025-09-01-preview.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.cdn/profiles/{} 2025-09-01-preview -->
+
+#### examples
+
+- Profiles_Get
+    ```bash
+        afd profile show --resource-group RG --profile-name profile1
+    ```

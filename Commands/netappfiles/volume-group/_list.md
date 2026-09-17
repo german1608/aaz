@@ -69,3 +69,69 @@ List all volume groups for given account
     ```bash
         netappfiles volume-group list -g mygroup --account-name myaccountname
     ```
+
+### [2025-06-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5uZXRhcHAvbmV0YXBwYWNjb3VudHMve30vdm9sdW1lZ3JvdXBz/2025-06-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.netapp/netappaccounts/{}/volumegroups 2025-06-01 -->
+
+#### examples
+
+- Get a list of ANF volume groups
+    ```bash
+        netappfiles volume-group list -g mygroup --account-name myaccountname
+    ```
+
+### [2025-09-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5uZXRhcHAvbmV0YXBwYWNjb3VudHMve30vdm9sdW1lZ3JvdXBz/2025-09-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.netapp/netappaccounts/{}/volumegroups 2025-09-01 -->
+
+#### examples
+
+- Get a list of ANF volume groups
+    ```bash
+        netappfiles volume-group list -g mygroup --account-name myaccountname
+    ```
+
+### [2025-12-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5uZXRhcHAvbmV0YXBwYWNjb3VudHMve30vdm9sdW1lZ3JvdXBz/2025-12-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.netapp/netappaccounts/{}/volumegroups 2025-12-01 -->
+
+#### examples
+
+- Get a list of ANF volume groups
+    ```bash
+        netappfiles volume-group list -g mygroup --account-name myaccountname
+    ```
+
+### [2026-01-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5uZXRhcHAvbmV0YXBwYWNjb3VudHMve30vdm9sdW1lZ3JvdXBz/2026-01-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.netapp/netappaccounts/{}/volumegroups 2026-01-01 -->
+
+#### examples
+
+- Get a list of ANF volume groups
+    ```bash
+        netappfiles volume-group list -g mygroup --account-name myaccountname
+    ```
+
+### [2026-04-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5uZXRhcHAvbmV0YXBwYWNjb3VudHMve30vdm9sdW1lZ3JvdXBz/2026-04-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.netapp/netappaccounts/{}/volumegroups 2026-04-01 -->
+
+#### examples
+
+- Get a list of ANF volume groups
+    ```bash
+        netappfiles volume-group list -g mygroup --account-name myaccountname
+    ```
+
+### [2026-05-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5uZXRhcHAvbmV0YXBwYWNjb3VudHMve30vdm9sdW1lZ3JvdXBz/2026-05-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.netapp/netappaccounts/{}/volumegroups 2026-05-01 -->
+
+#### examples
+
+- Get a list of ANF volume groups
+    ```bash
+        netappfiles volume-group list -g mygroup --account-name myaccountname
+    ```

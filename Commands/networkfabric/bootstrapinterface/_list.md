@@ -7,3 +7,31 @@ List all the Network Bootstrap Interface resources in a given resource group.
 ### [2025-07-15](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5tYW5hZ2VkbmV0d29ya2ZhYnJpYy9uZXR3b3JrYm9vdHN0cmFwZGV2aWNlcy97fS9uZXR3b3JrYm9vdHN0cmFwaW50ZXJmYWNlcw==/2025-07-15.xml) **Stable**
 
 <!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.managednetworkfabric/networkbootstrapdevices/{}/networkbootstrapinterfaces 2025-07-15 -->
+
+#### examples
+
+- List the Bootstrap Interfaces by Subscription
+    ```bash
+        networkfabric bootstrapinterface list --subscription <subscriptionId> --bootstrap-device example-device
+    ```
+
+- List the Bootstrap Interfaces by Resource Group
+    ```bash
+        networkfabric bootstrapinterface list --resource-group example-rg --bootstrap-device example-device
+    ```
+
+### [2026-01-15-preview](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5tYW5hZ2VkbmV0d29ya2ZhYnJpYy9uZXR3b3JrYm9vdHN0cmFwZGV2aWNlcy97fS9uZXR3b3JrYm9vdHN0cmFwaW50ZXJmYWNlcw==/2026-01-15-preview.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.managednetworkfabric/networkbootstrapdevices/{}/networkbootstrapinterfaces 2026-01-15-preview -->
+
+#### examples
+
+- List the Bootstrap Interfaces by Subscription
+    ```bash
+        networkfabric bootstrapinterface list --subscription <subscriptionId> --bootstrap-device example-device
+    ```
+
+- List the Bootstrap Interfaces by Resource Group
+    ```bash
+        networkfabric bootstrapinterface list --resource-group example-rg --bootstrap-device example-device
+    ```

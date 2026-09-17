@@ -36,3 +36,25 @@ List all the available Namespaces within a subscription, irrespective of the res
     ```bash
         eventhubs namespace list
     ```
+
+### [2026-01-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5ldmVudGh1Yi9uYW1lc3BhY2Vz/2026-01-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/providers/microsoft.eventhub/namespaces 2026-01-01 -->
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.eventhub/namespaces 2026-01-01 -->
+
+### [2026-07-01-preview](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5ldmVudGh1Yi9uYW1lc3BhY2Vz/2026-07-01-preview.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/providers/microsoft.eventhub/namespaces 2026-07-01-preview -->
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.eventhub/namespaces 2026-07-01-preview -->
+
+#### examples
+
+- NamespacesListBySubscription
+    ```bash
+        eventhubs namespace list
+    ```
+
+- NamespaceListByResourceGroup
+    ```bash
+        eventhubs namespace list --resource-group ResurceGroupSample
+    ```

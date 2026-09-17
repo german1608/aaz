@@ -2,6 +2,11 @@
 
 Provides a set of commands to manage Datadog monitor resources in your Azure subscription, enabling integration and observability of your Azure resources through Datadog.
 
+## Subgroups
+
+- [monitored-subscription](/Commands/datadog/monitor/monitored-subscription/readme.md)
+: Manage Monitored Subscription
+
 ## Commands
 
 - [create](/Commands/datadog/monitor/_create.md)
@@ -10,8 +15,20 @@ Provides a set of commands to manage Datadog monitor resources in your Azure sub
 - [delete](/Commands/datadog/monitor/_delete.md)
 : Deletes an existing Datadog monitor resource from your Azure subscription, removing the integration and stopping the observability of your Azure resources through Datadog.
 
+- [get-billing-info](/Commands/datadog/monitor/_get-billing-info.md)
+: Get marketplace and organization info mapped to the given monitor.
+
+- [get-default-application-key](/Commands/datadog/monitor/_get-default-application-key.md)
+: Get the default application key.
+
 - [get-default-key](/Commands/datadog/monitor/_get-default-key.md)
 : Fetches the default Datadog API key associated with your monitor resource, which is used for authenticating and sending telemetry data from Azure to Datadog.
+
+- [latest-linked-saas](/Commands/datadog/monitor/_latest-linked-saas.md)
+: Returns the latest SaaS linked to the Datadog organization of the underlying monitor.
+
+- [link-saas](/Commands/datadog/monitor/_link-saas.md)
+: Links a new SaaS to the Datadog organization of the underlying monitor.
 
 - [list](/Commands/datadog/monitor/_list.md)
 : Retrieves a list of all Datadog monitor resources either within a specific resource group or across the entire subscription, helping you quickly audit and manage your monitoring setup.
@@ -27,6 +44,9 @@ Provides a set of commands to manage Datadog monitor resources in your Azure sub
 
 - [list-monitored-resource](/Commands/datadog/monitor/_list-monitored-resource.md)
 : Lists all Azure resources that are currently being monitored by the specified Datadog monitor resource, providing insight into the coverage of your observability setup.
+
+- [manage-sre-agent-connector](/Commands/datadog/monitor/_manage-sre-agent-connector.md)
+: Manages Datadog MCP connectors to add/remove for the SRE Agent.
 
 - [refresh-set-password-link](/Commands/datadog/monitor/_refresh-set-password-link.md)
 : Refreshes the link used to set the password for the Datadog monitor resource and returns the latest link, ensuring secure access management.

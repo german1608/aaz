@@ -22,6 +22,9 @@ Manage Azure Network resources.
 - [custom-ip](/Commands/network/custom-ip/readme.md)
 : Manage custom IP.
 
+- [ddos-custom-policy](/Commands/network/ddos-custom-policy/readme.md)
+: Manage Ddos Custom Policy
+
 - [ddos-protection](/Commands/network/ddos-protection/readme.md)
 : Manage DDoS Protection Plans.
 
@@ -32,7 +35,7 @@ Manage Azure Network resources.
 : Manage Dns Resolver Domain List
 
 - [express-route](/Commands/network/express-route/readme.md)
-: Manage dedicated private network fiber connections to Azure.
+: Manage Express Route Circuit
 
 - [express-route-cross-connection](/Commands/network/express-route-cross-connection/readme.md)
 : Manage express route cross connection
@@ -114,6 +117,9 @@ Manage Azure Network resources.
 
 - [virtual-appliance](/Commands/network/virtual-appliance/readme.md)
 : Manage Azure Network Virtual Appliance.
+
+- [virtual-network-appliance](/Commands/network/virtual-network-appliance/readme.md)
+: Manage Virtual Network Appliance
 
 - [vnet](/Commands/network/vnet/readme.md)
 : Check if a private IP address is available for use within a virtual network.

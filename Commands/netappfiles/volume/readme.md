@@ -9,6 +9,9 @@ Generated Create update delete operations for Azure NetApp Files (ANF) Volumes
 - [backup](/Commands/netappfiles/volume/backup/readme.md)
 : Manage Azure NetApp Files (ANF) Volume Backup Resources.
 
+- [bucket](/Commands/netappfiles/volume/bucket/readme.md)
+: Manage Bucket
+
 - [export-policy](/Commands/netappfiles/volume/export-policy/readme.md)
 : Manage Azure NetApp Files (ANF) Volume export policies.
 
@@ -20,6 +23,9 @@ Generated Create update delete operations for Azure NetApp Files (ANF) Volumes
 
 - [quota-rule](/Commands/netappfiles/volume/quota-rule/readme.md)
 : Manage Azure NetApp Files (ANF) Volume Quota Rules Resources.
+
+- [ransomware-report](/Commands/netappfiles/volume/ransomware-report/readme.md)
+: Manage Advanced Ransomware(ARP) Reports
 
 - [replication](/Commands/netappfiles/volume/replication/readme.md)
 : Manage Azure NetApp Files (ANF) Volume replication

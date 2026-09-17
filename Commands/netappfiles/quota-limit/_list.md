@@ -69,3 +69,69 @@ List the default and current limits for quotas
     ```bash
         netappfiles quota-limit list -l eastus
     ```
+
+### [2025-06-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5uZXRhcHAvbG9jYXRpb25zL3t9L3F1b3RhbGltaXRz/2025-06-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/providers/microsoft.netapp/locations/{}/quotalimits 2025-06-01 -->
+
+#### examples
+
+- List the quota limits for eastus
+    ```bash
+        netappfiles quota-limit list -l eastus
+    ```
+
+### [2025-09-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5uZXRhcHAvbG9jYXRpb25zL3t9L3F1b3RhbGltaXRz/2025-09-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/providers/microsoft.netapp/locations/{}/quotalimits 2025-09-01 -->
+
+#### examples
+
+- List the quota limits for eastus
+    ```bash
+        netappfiles quota-limit list -l eastus
+    ```
+
+### [2025-12-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5uZXRhcHAvbG9jYXRpb25zL3t9L3F1b3RhbGltaXRz/2025-12-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/providers/microsoft.netapp/locations/{}/quotalimits 2025-12-01 -->
+
+#### examples
+
+- List the quota limits for eastus
+    ```bash
+        netappfiles quota-limit list -l eastus
+    ```
+
+### [2026-01-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5uZXRhcHAvbG9jYXRpb25zL3t9L3F1b3RhbGltaXRz/2026-01-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/providers/microsoft.netapp/locations/{}/quotalimits 2026-01-01 -->
+
+#### examples
+
+- List the quota limits for eastus
+    ```bash
+        netappfiles quota-limit list -l eastus
+    ```
+
+### [2026-04-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5uZXRhcHAvbG9jYXRpb25zL3t9L3F1b3RhbGltaXRz/2026-04-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/providers/microsoft.netapp/locations/{}/quotalimits 2026-04-01 -->
+
+#### examples
+
+- List the quota limits for eastus
+    ```bash
+        netappfiles quota-limit list -l eastus
+    ```
+
+### [2026-05-01](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5uZXRhcHAvbG9jYXRpb25zL3t9L3F1b3RhbGltaXRz/2026-05-01.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/providers/microsoft.netapp/locations/{}/quotalimits 2026-05-01 -->
+
+#### examples
+
+- List the quota limits for eastus
+    ```bash
+        netappfiles quota-limit list -l eastus
+    ```
